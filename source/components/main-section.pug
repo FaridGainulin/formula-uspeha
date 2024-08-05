@@ -1,0 +1,26 @@
+section.main-section
+  .wrapper
+    .main-section__container
+      include ../components/header.pug
+      h1.main-section__title.font-w-dgo-regular.font-s-24.text-up
+        | Откройте 
+        span.mark-orange собственный центр 
+        br.no-br
+        | дополнительного и  профессионального 
+        br.no-br
+        | образования с франшизой 
+        br.no-br
+        span.mark-orange «ФОРМУЛА УСПЕХА»
+      .main-section__sub-title-wrapper
+        img.main-section__icon-coin(src="images/main-section-icon-coin.svg" loading="lazy" width="49" height="53" alt="icon")
+        .main-section__sub-title.font-s-21.text-up
+          | Узнайте, как получать от 
+          br.no-br
+          span.font-w-bold 400 000 рублей чистой прибыли 
+          br.no-br
+          | ежемесячно в своем городе
+      form.main-section__form(data-feedback-form)
+        input.input.main-item(type="text" name="name" autocomplete="off" placeholder="Ваше имя")
+        input.input.main-item(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Ваш телефон")
+        button.btn.main-item(type="submit") Получить план открытия
+      img.main-section__img(src="images/main-section-img.png" loading="lazy" width="1051" height="975" alt="image")

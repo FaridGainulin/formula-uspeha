@@ -1,0 +1,32 @@
+section.invest-section
+  .wrapper
+    .invest-section__container
+      .invest-section__title.font-w-dgo-regular.font-s-34.text-up
+        | Какие вложения понадобятся
+        br
+        | для успешного старта
+      .invest-section__text.font-s-24.text-up
+        | Выберите размер вашего города,
+        br
+        | чтобы узнать все условия
+      .swiper-invest
+        .invest-section__cards.swiper-wrapper
+          .invest-section__card.swiper-slide
+            .invest-section__card-title.font-w-dgo-regular.font-s-26.text-up до 500 000 <br> жителей
+            form.invest-section__form(data-feedback-form)
+              input.input.input--color-blue.invest-item(type="text" name="name" autocomplete="off" placeholder="Ваше имя")
+              input.input.input--color-blue.invest-item(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Ваш телефон")
+              button.btn.invest-item(type="submit") узнать
+          .invest-section__card.swiper-slide
+            .invest-section__card-title.font-w-dgo-regular.font-s-26.text-up до 1 000 000 <br> жителей
+            form.invest-section__form(data-feedback-form)
+              input.input.input--color-blue.invest-item(type="text" name="name" autocomplete="off" placeholder="Ваше имя")
+              input.input.input--color-blue.invest-item(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Ваш телефон")
+              button.btn.invest-item(type="submit") узнать
+          .invest-section__card.swiper-slide
+            .invest-section__card-title.font-w-dgo-regular.font-s-26.text-up от 1 000 000 <br> жителей
+            form.invest-section__form(data-feedback-form)
+              input.input.input--color-blue.invest-item(type="text" name="name" autocomplete="off" placeholder="Ваше имя")
+              input.input.input--color-blue.invest-item(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Ваш телефон")
+              button.btn.invest-item(type="submit") узнать
+        .invest-pagination.swiper-progress-invest

@@ -1,0 +1,63 @@
+.footer
+  &__container
+    display: flex
+    align-items: center
+    padding 15px 0
+    flex-direction: column
+    gap: 5px
+    +above($breakpoints.sm)
+      gap 0
+      padding 25px 0
+      flex-direction: row
+      justify-content space-between
+
+
+  &__logo
+    width 120px
+    height: auto
+    +above($breakpoints.sm)
+      width 206px
+
+  &__box
+    width 100%
+    max-width: 450px
+    display: flex
+    align-items: center
+    flex-direction: column
+    gap: 8px
+    +above($breakpoints.sm)
+      gap: 45px
+      flex-direction: row
+      text-align: center
+    +above($breakpoints.md)
+      max-width: 655px
+    +above($breakpoints.xxl)
+      text-align: start
+      max-width: 694px
+
+  &__text
+    display: none
+    +above($breakpoints.sm)
+      display: block
+      color: #353535
+
+  &__privacy
+    text-decoration: underline
+
+
+  &__connection
+    display: flex
+    align-items: center
+    justify-content center
+    width 100%
+    max-width 140px
+    height: 26px
+    color: #fff
+    border-radius: 30px
+    background-color $color-blue
+    +above($breakpoints.sm)
+      height: 36px
+      max-width 150px
+    +above($breakpoints.md)
+      height: 48px
+      max-width 207px

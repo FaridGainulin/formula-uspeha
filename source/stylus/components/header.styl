@@ -1,0 +1,49 @@
+.header
+  &__container
+    display: flex
+    flex-direction: row
+    align-items: center
+    justify-content space-between
+
+  &__box-left
+    display: flex
+    flex-direction: row
+    align-items: center
+    gap: 43px
+
+  &__title
+    display: none
+    +above($breakpoints.sm)
+      display: block
+      line-height 113%
+      color: $color-blue
+      border-left 3px solid $color-blue
+      padding: 6px 0 7px 12px
+
+
+  &__logo
+    width 120px
+    height: auto
+    +above($breakpoints.sm)
+      width 180px
+    +above($breakpoints.md)
+      width 220px
+    +above($breakpoints.xxl)
+      width 278px
+
+  &__connection
+    display: flex
+    align-items: center
+    justify-content center
+    width 100%
+    max-width 140px
+    height: 26px
+    color: #fff
+    border-radius: 30px
+    background-color $color-blue
+    +above($breakpoints.sm)
+      height: 36px
+      max-width 150px
+    +above($breakpoints.md)
+      height: 48px
+      max-width 207px

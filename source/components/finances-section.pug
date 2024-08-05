@@ -1,0 +1,44 @@
+section.finances-section
+  .wrapper
+    .finances-section__container
+      h2.finances-section__title.font-s-34.font-w-dgo-regular.text-up
+        | Франшиза в цифрах
+      .swiper-finances
+        .finances-section__cards.swiper-wrapper
+          .finances-section__card.swiper-slide
+            img.finances-section__card-icon(src="images/finances-section-card-img.svg" loading="lazy" width="67" height="70" alt="icon")
+            .font-s-24.font-w-dgo-regular.text-up.color-blue до 3 месяцев
+            .font-s-24 Займет открытие <br> центра
+          .finances-section__card.swiper-slide
+            img.finances-section__card-icon(src="images/finances-section-card-img.svg" loading="lazy" width="67" height="70" alt="icon")
+            .font-s-24.font-w-dgo-regular.text-up.color-blue 23,5%
+            .font-s-24 рентабельность <br> по чистой прибыли
+          .finances-section__card.swiper-slide
+            img.finances-section__card-icon(src="images/finances-section-card-img.svg" loading="lazy" width="67" height="70" alt="icon")
+            .font-s-24.font-w-dgo-regular.text-up.color-blue 2 630 000 руб
+            .font-s-24 средний <br> размер вложений
+          .finances-section__card.swiper-slide
+            img.finances-section__card-icon(src="images/finances-section-card-img.svg" loading="lazy" width="67" height="70" alt="icon")
+            .font-s-24.font-w-dgo-regular.text-up.color-blue 1 700 000 руб
+            .font-s-24 средняя ежемесячная <br> выручка
+          .finances-section__card.swiper-slide
+            img.finances-section__card-icon(src="images/finances-section-card-img.svg" loading="lazy" width="67" height="70" alt="icon")
+            .font-s-24.font-w-dgo-regular.text-up.color-blue 400 000 руб
+            .font-s-24 средняя ежемесячная <br> прибыль
+          .finances-section__card.swiper-slide
+            img.finances-section__card-icon(src="images/finances-section-card-img.svg" loading="lazy" width="67" height="70" alt="icon")
+            .font-s-24.font-w-dgo-regular.text-up.color-blue 6 месяцев
+            .font-s-24 средний срок <br> окупаемости
+        .finances-pagination.swiper-progress-finances
+      .finances-section__bottom
+        img.finances-section__bottom-img(src="images/finances-section-bottom-img.png" loading="lazy" width="834" height="578" alt="image")
+        .finances-section__bottom-title.font-s-24.font-w-dgo-regular.text-up
+          | Хотите получить 
+          span.mark-orange детальные цифры 
+          br.no-br
+          | для вашего города и под ваш бюджет?
+        .finances-section__bottom-text.text-up.font-s-20 Скачайте финансовую модель франшизы «ФОРМУЛА УСПЕХА»
+        form.finances-section__form(data-feedback-form)
+          input.input.finances-item(type="text" name="name" autocomplete="off" placeholder="Ваше имя")
+          input.input.finances-item(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Ваш телефон")
+          button.btn.finances-item(type="submit") скачать
